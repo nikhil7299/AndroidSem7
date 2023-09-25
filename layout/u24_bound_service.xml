@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".U24BoundService">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bound Service"
+        />
+    <TextView
+        android:id="@+id/boundServiceTimeStampText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timestamp "
+        />
+
+    <Button
+        android:id="@+id/boundServicePrintTimestampBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print Timestamp"
+
+        />
+
+    <Button
+        android:id="@+id/boundServiceStopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Bound Service"
+
+        />
+
+
+</LinearLayout>
